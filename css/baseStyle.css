@@ -1,3 +1,105 @@
 html, body {
     font-family: Helvetica, Tahoma, Arial, 'Hiragino Sans GB', 'Microsoft UI Light', sans-serif;
 }
+
+#container
+{
+width:1280px;
+margin-left:auto;
+margin-right:auto;
+}
+
+#banner
+{
+height:200px;
+text-align:center;
+vertical-align:center;
+border:1px solid black;
+}
+
+nav
+{
+}
+
+#navigator
+{
+border:1px solid black;
+}
+
+/*左浮动框*/
+#left
+{
+float:left;
+width:200px;
+left:0;
+border:1px solid red;
+}
+
+#logo
+{
+margin-left:auto;
+margin-right:auto;
+width:180px;
+height:180px;
+border: 1px solid green;
+}
+
+#contact
+{
+border: 1px solid green;
+}
+
+#links
+{
+border: 1px solid green;
+}
+
+/*右浮动框*/
+#right
+{
+float:right;
+width:200px;
+float:right;
+right:0;
+border:1px solid blue;
+}
+
+#search
+{
+border: 1px solid green;
+}
+
+#tags
+{
+border: 1px solid green;
+}
+
+#catagory
+{
+border: 1px solid green;
+}
+
+/*文章区*/
+#article_area
+{
+width:auto;
+margin-left:210px;
+margin-right:210px;
+border:1px solid black;
+}
+
+#footer
+{
+border:1px solid black;
+}
+
+article
+{
+padding: 0.5em;
+border: thin solid blue;
+}
+
+#more
+{
+text-align:right;
+}
