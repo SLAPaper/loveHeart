@@ -20,23 +20,17 @@ nav {
 
 #navigator {
     border: 1px solid black;
-    border-radius:0 0 0.5em 0.5em;
+    border-radius: 0 0 0.5em 0.5em;
     box-shadow: 5px 5px 5px lightgrey;
 }
 
 div.card {
     margin: 10px 0;
     box-shadow: 5px 5px 5px lightgrey;
-    border-radius:0.5em;
+    border-radius: 0.5em;
 }
 
 /*左浮动框*/
-#left {
-    float: left;
-    width: 200px;
-    left: 0;
-    border: 1px solid red;
-}
 
 #logo {
     margin-left: auto;
@@ -75,13 +69,6 @@ div.card {
 }
 
 /*文章区*/
-#article_area {
-    width: auto;
-    margin-left: 210px;
-    margin-right: 210px;
-    border: 1px solid black;
-}
-
 #footer {
     border: 1px solid black;
     border-radius: 0.5em 0.5em 0 0;
@@ -90,7 +77,7 @@ div.card {
 article {
     padding: 0.5em;
     border: thin solid blue;
-    border-radius:0.5em;
+    border-radius: 0.5em;
     margin: 10px 0;
     box-shadow: 5px 5px 5px lightgrey;
 }
@@ -99,7 +86,3 @@ article {
         font-size: 150%;
         border-bottom: thick dotted darkslateblue;
     }
-
-#more {
-    text-align: right;
-}
