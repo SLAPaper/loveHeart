@@ -1,5 +1,6 @@
 html, body {
     font-family: Helvetica, Tahoma, Arial, 'Hiragino Sans GB', 'Microsoft UI Light', sans-serif;
+    margin: 0;
 }
 
 #container {
@@ -86,5 +87,5 @@ article {
 #footer {
     border: 1px solid black;
     border-radius: 0.5em 0.5em 0 0;
-    box-shadow: 5px 5px 5px lightgrey;
+    box-shadow: 5px 0 5px lightgrey;
 }
