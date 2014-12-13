@@ -20,11 +20,14 @@ nav {
 
 #navigator {
     border: 1px solid black;
+    border-radius:0 0 0.5em 0.5em;
+    box-shadow: 5px 5px 5px lightgrey;
 }
 
-div.shadow {
+div.card {
     margin: 10px 0;
     box-shadow: 5px 5px 5px lightgrey;
+    border-radius:0.5em;
 }
 
 /*左浮动框*/
@@ -67,7 +70,7 @@ div.shadow {
     border: 1px solid green;
 }
 
-#catagory {
+#category {
     border: 1px solid green;
 }
 
@@ -81,11 +84,15 @@ div.shadow {
 
 #footer {
     border: 1px solid black;
+    border-radius: 0.5em 0.5em 0 0;
 }
 
 article {
     padding: 0.5em;
     border: thin solid blue;
+    border-radius:0.5em;
+    margin: 10px 0;
+    box-shadow: 5px 5px 5px lightgrey;
 }
 
     article > h1 {
