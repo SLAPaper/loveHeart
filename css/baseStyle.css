@@ -69,11 +69,6 @@ div.card {
 }
 
 /*文章区*/
-#footer {
-    border: 1px solid black;
-    border-radius: 0.5em 0.5em 0 0;
-}
-
 article {
     padding: 0.5em;
     border: thin solid blue;
@@ -86,3 +81,10 @@ article {
         font-size: 150%;
         border-bottom: thick dotted darkslateblue;
     }
+
+/*脚标区*/
+#footer {
+    border: 1px solid black;
+    border-radius: 0.5em 0.5em 0 0;
+    box-shadow: 5px 5px 5px lightgrey;
+}
