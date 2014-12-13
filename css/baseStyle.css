@@ -22,12 +22,12 @@ nav {
 #navigator {
     border: 1px solid black;
     border-radius: 0 0 0.5em 0.5em;
-    box-shadow: 5px 5px 5px lightgrey;
+    box-shadow: 5px 5px 5px lightgray;
 }
 
 div.card {
     margin: 10px 0;
-    box-shadow: 5px 5px 5px lightgrey;
+    box-shadow: 5px 5px 5px lightgray;
     border-radius: 0.5em;
 }
 
@@ -71,17 +71,52 @@ div.card {
 
 /*文章区*/
 article {
-    padding: 0.5em;
     border: thin solid blue;
     border-radius: 0.5em;
     margin: 10px 0;
     box-shadow: 5px 5px 5px lightgrey;
+    padding: 0 1em 1em 1em;
 }
 
-    article > h1 {
-        font-size: 150%;
+    article h1 {
+        font-size: xx-large;
         border-bottom: thick dotted darkslateblue;
+        margin-bottom: 0;
     }
+
+    article p {
+        text-indent: 2em;
+    }
+
+    article h2 {
+        font-size: large;
+        margin-top: 1.5em;
+    }
+
+    article dl {
+        padding-left: 1em;
+    }
+
+    article dt {
+        font-weight: bold;
+        margin-top: 1em;
+    }
+
+    article dd {
+        margin-left: 1em;
+        line-height: 150%;
+    }
+
+.information_bar {
+    margin-top: 5px;
+    font-size: 80%;
+    color: gray;
+}
+
+.bottom_bar {
+    font-size: 80%;
+    color: gray;
+}
 
 /*脚标区*/
 #footer {
