@@ -80,8 +80,6 @@ article {
 
     article h1 {
         font-size: xx-large;
-        border-bottom: thick dotted darkslateblue;
-        margin-bottom: 0;
     }
 
     article p {
@@ -107,8 +105,14 @@ article {
         line-height: 150%;
     }
 
+.title_bar {
+    border-bottom: medium dotted darkslateblue;
+    margin-bottom: 0;
+}
+
 .information_bar {
     margin-top: 5px;
+    margin-left: 2em;
     font-size: 80%;
     color: gray;
 }
