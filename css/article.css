@@ -5,3 +5,15 @@
 #direction {
     text-align: center;
 }
+
+#up {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    width: 80px;
+    height: 80px;
+    border: medium solid black;
+    border-radius: 20px;
+    background-color: #f5f5f5;
+    padding: 10px;
+}

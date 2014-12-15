@@ -1,17 +1,26 @@
-﻿#left {
-    float: left;
-    width: 200px;
-    left: 0;
-    border: 1px solid red;
-}
-
-#article_area {
+﻿#article_area {
     width: auto;
     margin-left: 210px;
     margin-right: 210px;
-    border: 1px solid black;
 }
 
 #more {
     text-align: right;
+}
+
+/*左浮动框*/
+#left {
+    float: left;
+    width: 200px;
+    left: 0;
+}
+
+#logo {
+    height: 200px;
+}
+
+#contact {
+}
+
+#links {
 }
