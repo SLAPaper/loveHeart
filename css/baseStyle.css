@@ -37,6 +37,46 @@ nav {
     margin-bottom: 2em;
 }
 
+    nav ul {
+        position: relative;
+        list-style: none;
+        padding-left: 0;
+        margin: 0;
+        height: 4em;
+    }
+
+    nav li {
+        position: relative;
+        display: inline-block;
+        height: 3.5em;
+        width: 6em;
+        margin: 0.5em auto 0;
+        border-radius: 0.5em 0.5em 0 0;
+        border: 1px solid lightgray;
+        text-align: center;
+        box-shadow: lightgray -2px -2px 2px inset;
+    }
+
+        nav li:first-child {
+            margin-left: 0;
+        }
+
+        nav li:last-child {
+            margin-right: 0;
+        }
+
+        nav li.right {
+            margin-left: auto;
+            position: absolute;
+            right: 0;
+        }
+
+        nav li a {
+            position: relative;
+            top: 1.5em;
+        }
+
+
 #navigator {
     border-radius: 0 0 0.5em 0.5em;
     box-shadow: 5px 5px 5px lightgray;
