@@ -90,7 +90,7 @@ nav {
 }
 
 #search {
-    height: 200px;
+    height: 100px;
 }
 
 #tags {
@@ -98,7 +98,11 @@ nav {
 }
 
 #category {
-    height: 200px;
+    height: 300px;
+}
+
+#time_group {
+    height: 400px;
 }
 
 /*文章区*/

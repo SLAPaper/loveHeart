@@ -15,12 +15,29 @@
     left: 0;
 }
 
-#logo {
-    height: 200px;
+#function {
+    padding: 1em;
+}
+
+#function ul {
+    padding-left: 0;
+    list-style: none;
 }
 
 #contact {
+    padding: 1em;
 }
 
+    #contact ul {
+        padding-left: 0;
+        list-style: none;
+    }
+
 #links {
+    padding: 1em;
 }
+
+    #links ul {
+        padding-left: 0;
+        list-style: none;
+    }
