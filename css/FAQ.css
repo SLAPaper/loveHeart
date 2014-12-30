@@ -10,5 +10,22 @@
     left: 0;
 }
 
+#up {
+    position: fixed;
+    bottom: 1em;
+    right: 2em;
+    width: 3em;
+    height: 3em;
+    border-radius: 20px;
+    background-color: #f5f5f5;
+    padding: 10px;
+    box-shadow: lightgray 10px 10px 10px;
+}
+
+    #up img {
+        margin: auto;
+        width: 3em;
+    }
+
 #catalogue {
 }

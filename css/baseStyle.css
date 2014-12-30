@@ -120,6 +120,7 @@ article {
         font-size: x-large;
         margin-top: 1.5em;
         border-bottom: thin dashed black;
+        overflow: hidden;
     }
 
     article h3 {
@@ -145,6 +146,24 @@ article {
         width: 30em;
         padding: 1em;
         border-radius: 1em;
+    }
+
+    article table, thead, tbody, tfoot, tr, td {
+        width: 80%;
+        margin: auto;
+        border-collapse: collapse;
+        border: 1px solid darkslategray;
+    }
+
+    article thead, tfoot {
+        background-color: darkslategray;
+        color: white;
+    }
+
+    article td {
+        text-align: center;
+        width: auto;
+        padding: 0.5em;
     }
 
 .title_bar {
