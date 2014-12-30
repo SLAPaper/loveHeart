@@ -1,7 +1,7 @@
 ﻿#article_area {
     width: auto;
     margin-left: 14em;
-    margin-right:14em;
+    margin-right: 14em;
 }
 
 #more {
@@ -19,10 +19,10 @@
     padding: 1em;
 }
 
-#function ul {
-    padding-left: 0;
-    list-style: none;
-}
+    #function ul {
+        padding-left: 0;
+        list-style: none;
+    }
 
 #contact {
     padding: 1em;
@@ -41,3 +41,25 @@
         padding-left: 0;
         list-style: none;
     }
+
+/*右浮动框*/
+#right {
+    float: right;
+    width: 13em;
+    right: 0;
+}
+
+#search {
+}
+
+#tags {
+    height: 200px;
+}
+
+#category {
+    height: 300px;
+}
+
+#time_group {
+    height: 400px;
+}

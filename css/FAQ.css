@@ -1,0 +1,14 @@
+﻿#article_area {
+    width: auto;
+    margin-left: 26em;
+}
+
+/*左浮动框*/
+#left {
+    float: left;
+    width: 25em;
+    left: 0;
+}
+
+#catalogue {
+}

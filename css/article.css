@@ -17,3 +17,25 @@
     padding: 10px;
     box-shadow: lightgray 10px 10px 10px;
 }
+
+/*右浮动框*/
+#right {
+    float: right;
+    width: 13em;
+    right: 0;
+}
+
+#search {
+}
+
+#tags {
+    height: 200px;
+}
+
+#category {
+    height: 300px;
+}
+
+#time_group {
+    height: 400px;
+}
