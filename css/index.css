@@ -1,7 +1,7 @@
 ﻿#article_area {
     width: auto;
-    margin-left: 210px;
-    margin-right: 210px;
+    margin-left: 14em;
+    margin-right:14em;
 }
 
 #more {
@@ -11,7 +11,7 @@
 /*左浮动框*/
 #left {
     float: left;
-    width: 200px;
+    width: 13em;
     left: 0;
 }
 

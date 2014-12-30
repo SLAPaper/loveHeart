@@ -1,5 +1,5 @@
 html, body {
-    font-family: Helvetica, Tahoma, Arial, 'Hiragino Sans GB', 'Microsoft UI Light', sans-serif;
+    font-family: Helvetica, Tahoma, Arial, 'Hiragino Sans GB','WenQuanYi Micro Hei','Microsoft YaHei UI Light' , sans-serif;
     margin: 0;
 }
 
@@ -38,7 +38,7 @@ div.card {
 }
 
 nav {
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 }
 
     nav ul {
@@ -102,12 +102,11 @@ nav {
 /*右浮动框*/
 #right {
     float: right;
-    width: 200px;
+    width: 13em;
     right: 0;
 }
 
 #search {
-    height: 100px;
 }
 
 #tags {
