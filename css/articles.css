@@ -1,0 +1,48 @@
+﻿#list {
+    margin-right: 14em;
+}
+
+    #list ul {
+        list-style: none;
+        padding-left: 0;
+    }
+
+    #list li {
+        margin: 0.5em;
+        padding: 2em;
+        position: relative;
+    }
+
+        #list li div.left {
+            display: inline-block;
+            position: absolute;
+            left: 1em;
+        }
+
+        #list li div.right {
+            display: inline-block;
+            position: absolute;
+            right: 1em;
+        }
+
+/*右浮动框*/
+#right {
+    float: right;
+    width: 13em;
+    right: 0;
+}
+
+#search {
+}
+
+#tags {
+    height: 200px;
+}
+
+#category {
+    height: 300px;
+}
+
+#time_group {
+    height: 400px;
+}
