@@ -1,0 +1,26 @@
+﻿#main_area {
+}
+
+    #main_area h2 {
+        font-size: xx-large;
+        padding: 0.5em;
+    }
+
+    #main_area ul {
+        padding-left: 0;
+        list-style: none;
+    }
+
+    #main_area li {
+        border: 1px solid gray;
+        margin: 0 1em;
+        padding: 1.5em 0;
+        text-align: center;
+        display: inline-block;
+        font-size: large;
+        width: 8em;
+    }
+
+    #main_area a {
+        text-decoration: none;
+    }
