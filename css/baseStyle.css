@@ -28,6 +28,7 @@ html, body {
     margin-right: auto;
 }
 
+/*顶端元件*/
 #banner {
     text-align: center;
     border: 1px solid lightgray;
@@ -99,6 +100,34 @@ nav {
     box-shadow: 5px 5px 5px lightgray;
 }
 
+/*左浮动框*/
+#function {
+    padding: 1em;
+}
+
+    #function ul {
+        padding-left: 0;
+        list-style: none;
+    }
+
+#contact {
+    padding: 1em;
+}
+
+    #contact ul {
+        padding-left: 0;
+        list-style: none;
+    }
+
+#links {
+    padding: 1em;
+}
+
+    #links ul {
+        padding-left: 0;
+        list-style: none;
+    }
+
 #up {
     position: fixed;
     bottom: 1em;
@@ -115,6 +144,43 @@ nav {
         margin: auto;
         width: 3em;
     }
+
+
+/*右浮动框*/
+#search {
+    padding: 0.5em;
+}
+
+    #search form {
+        font-size: medium;
+    }
+
+    #search input {
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        width: 9em;
+        display: inline-block;
+    }
+
+    #search button {
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        width: 4em;
+        display: inline-block;
+        float: right;
+    }
+
+#tags {
+    height: 200px;
+}
+
+#category {
+    height: 300px;
+}
+
+#time_group {
+    height: 400px;
+}
 
 /*文章区*/
 
@@ -226,6 +292,21 @@ article {
     font-size: 80%;
     color: gray;
 }
+
+    .information_bar div {
+        margin-left: 1em;
+        margin-right: 1em;
+        display: inline-block;
+    }
+
+    .information_bar span.tag {
+        margin-left: 0.25em;
+        margin-right: 0.25em;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+        border-radius: 1em;
+        border: 1px solid gray;
+    }
 
 .bottom_bar {
     font-size: 80%;
