@@ -10,23 +10,6 @@
     padding: 1em;
 }
 
-#up {
-    position: fixed;
-    bottom: 1em;
-    right: 2.5em;
-    width: 3em;
-    height: 3em;
-    border-radius: 20px;
-    background-color: #f5f5f5;
-    padding: 10px;
-    box-shadow: lightgray 10px 10px 10px;
-}
-
-    #up img {
-        margin: auto;
-        width: 3em;
-    }
-
 /*右浮动框*/
 #right {
     float: right;
