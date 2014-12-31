@@ -4,6 +4,14 @@
 
 #direction {
     text-align: center;
+    padding: 1em;
+}
+
+#direction a {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: x-large;
+    padding: 2em;
 }
 
 #position {

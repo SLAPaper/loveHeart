@@ -171,16 +171,39 @@ nav {
     }
 
 #tags {
-    height: 200px;
+    padding: 0.5em;
 }
+
+    #tags ul {
+        list-style: none;
+        padding-left: 0;
+    }
+
+    #tags li {
+        display: inline-block;
+    }
+
+    #tags a {
+        text-decoration: none;
+    }
 
 #category {
-    height: 300px;
+    padding: 0.5em;
 }
 
+    #category ul {
+        list-style: none;
+        padding-left: 0;
+    }
+
 #time_group {
-    height: 400px;
+    padding: 0.5em;
 }
+
+    #time_group ul {
+        list-style: none;
+        padding-left: 0;
+    }
 
 /*文章区*/
 
@@ -198,19 +221,20 @@ article {
         text-indent: 2em;
     }
 
-    article h1, h2, h3, h4, h5, h6 {
+    article h1, article h2, article h3, article h4, article h5, article h6 {
         color: darkslateblue;
         margin-bottom: 0.5em;
         margin-top: 2em;
     }
 
-        article h1 + p, h2 + p, h3 + p, h4 + p, h5 + p, h6 + p {
+        article h1 + p, article h2 + p, article h3 + p, article h4 + p, article h5 + p, article h6 + p {
             margin-top: 0;
         }
 
     article h1 {
         font-size: xx-large;
         margin-top: 1em;
+        margin-bottom: 0;
     }
 
     article h2 {
@@ -306,6 +330,10 @@ article {
         padding-right: 0.5em;
         border-radius: 1em;
         border: 1px solid gray;
+    }
+
+    .information_bar a {
+        text-decoration: none;
     }
 
 .bottom_bar {
