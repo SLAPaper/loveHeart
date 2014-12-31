@@ -52,7 +52,6 @@ nav {
     }
 
     nav li {
-        position: relative;
         display: inline-block;
         height: 3.5em;
         width: 6em;
@@ -82,9 +81,9 @@ nav {
         }
 
         nav li.right {
-            margin-left: auto;
             position: absolute;
             right: 0;
+            bottom: -1px;
         }
 
     nav a {
